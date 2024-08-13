@@ -7,7 +7,7 @@ export function Board({size}){
     }
     console.log(size);
     if(size>10){
-        return <div className="text-white">Size must be at least at max 10</div>;
+        return <div className="text-white">Size must be at max 10</div>;
     }
     
     if (size < 2) {
