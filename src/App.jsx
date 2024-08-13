@@ -4,7 +4,7 @@ import './App.css'
 import { useState } from 'react'
 
 function App() {
-const [gamesize, setGamesize] = useState(Number(3))
+const [gamesize, setGamesize] = useState("")
   return (
     <div className="flex flex-col justify-center items-center h-dvh gap-2">
       <InputBox onChange={(event)=>{
